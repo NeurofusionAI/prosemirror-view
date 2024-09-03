@@ -1,5 +1,5 @@
 {
-  "name": "prosemirror-view",
+  "name": "@neurofusionai/prosemirror-view",
   "version": "1.34.1",
   "description": "ProseMirror's view component",
   "type": "module",
@@ -25,7 +25,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/NeurofusionAI/prosemirror-view.git"
+    "url": "https://github.com/NeurofusionAI/prosemirror-view.git"
   },
   "dependencies": {
     "prosemirror-model": "^1.20.0",
@@ -35,6 +35,9 @@
   "devDependencies": {
     "@prosemirror/buildhelper": "^0.1.5",
     "prosemirror-test-builder": "^1.0.0"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
   },
   "scripts": {
     "test": "pm-runtests",
